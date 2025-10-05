@@ -1,10 +1,12 @@
-let palabra1 = prompt("Ingresa la primera palabra:");
-let palabra2 = prompt("Ingresa la segunda palabra:");
-
-if (palabra1.length > palabra2.length) {
-  console.log(`La palabra '${palabra1}' tiene más letras.`);
-} else if (palabra2.length > palabra1.length) {
-  console.log(`La palabra '${palabra2}' tiene más letras.`);
-} else {
-  console.log(`Ambas palabras tienen la misma cantidad de letras.`);
-}
+//Suma de divisores en un arreglo 12
+let numeros = [6, 12];
+for (let i = 0; i < numeros.length; i++) {
+    let num = numeros[i];
+    let sumaDivisores = 0;
+    for (let c = 1; c <= num; c++) {
+        if (num % c === 0) {
+            sumaDivisores += c;
+            console.log("Sumando divisor de " + num + " = " + sumaDivisores);
+        }
+        }
+        }
