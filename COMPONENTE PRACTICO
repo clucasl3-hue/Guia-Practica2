@@ -1,0 +1,13 @@
+let numeros = [123, 450, 89, 1001, 37];
+let numerosInvertidos = [];
+let contador = 0
+let numerosdiv = numeros / 10;
+for (let c = 1; c < numeros.length; c++) 
+    if (numerosdiv === 0) {
+        contador ++; 
+    }
+for (let i = 0; numerosdiv < numeros.length; i++) {
+let invertido = Number(String(num).split("").reverse().join(""));
+numerosInvertidos.push(invertido);
+}
+console.log(numerosInvertidos);
