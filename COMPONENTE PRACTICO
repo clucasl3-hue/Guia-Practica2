@@ -1,3 +1,6 @@
+//Copiar Números inveridos mediantes operaciones mátematicas
+//Descripción del Problema Se dispone de un arreglo de números enteros denominado números. El objetivo es copiar en un nuevo arreglo los mismos números pero invertidos, utilizando procesos matemáticos, no funciones de cadena.
+// Objetivo del Ejercicio. Poner en práctica el uso de divisiones, módulos y operaciones aritméticas para manipular números sin convertirlos en cadenas.
 let numeros = [123, 450, 89, 1001, 37];
 let numerosInvertidos = [];
 let contador = 0
@@ -7,7 +10,7 @@ for (let c = 1; c < numeros.length; c++)
         contador ++; 
     }
 for (let i = 0; numerosdiv < numeros.length; i++) {
-let invertido = Number(String(num).split("").reverse().join(""));
+let invertido = Number(String(numerosdiv).split("").reverse().join(""));
 numerosInvertidos.push(invertido);
 }
 console.log(numerosInvertidos);
